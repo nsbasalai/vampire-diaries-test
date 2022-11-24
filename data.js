@@ -31,12 +31,6 @@ const questions = [
     },
     {
         a: {
-            'werewolf': 'Passion',
-            'witch': 'Destiny',
-        }
-    },
-    {
-        a: {
             'vampire': 'Despair',
             'werewolf': 'Anger',
         }

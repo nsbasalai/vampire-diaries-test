@@ -65,12 +65,20 @@ window.onload = function () {
                 leftSide.style.backgroundColor = '';
             })
 
+            rightSide.addEventListener('click', () => {
+                leftSide.style.backgroundColor = '';
+            })
+
             leftSide.addEventListener('mouseover', () => {
                 rightSide.style.transition = '1s'
                 rightSide.style.backgroundColor = darkColor;
             })
 
             leftSide.addEventListener('mouseout', () => {
+                rightSide.style.backgroundColor = '';
+            })
+
+            leftSide.addEventListener('click', () => {
                 rightSide.style.backgroundColor = '';
             })
         }
