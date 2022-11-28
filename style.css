@@ -68,6 +68,7 @@ main {
 .test__answer {
     list-style-type: none;
     cursor: pointer;
+    padding: 10px 20px;
     z-index: 1;
 }
 
